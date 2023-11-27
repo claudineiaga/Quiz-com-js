@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quiz com JS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div class="start-screen">
+        <button id="start-button">Começar</button>
+    </div>
+    <div id="display-container">
+        <div class="header">
+            <div class="number-of-count">
+                <span class="number-of-question">1 de 3 Questões</span>
+            </div>
+            <div class="timer-div">
+                <img src="icon.png" width="70px" height="50px"/>
+                <span class="time-left">10s</span>
+            </div>
+        </div>
+        <div id="container">
+            <!-- perguntas e opções serão exibidas aqui -->
+        </div>
+        <button id="next-button">Próximo</button>
+    </div>
+    <div class="score-container hide">
+        <div id="user-score">Pontuação</div>
+        <button id="restart">Reiniciar</button>
+    </div>
+    <!-- Script -->
+    <script src='main.js'></script>
+
+</body>
+
+</html>
